@@ -1,2 +1,6 @@
 # Sparse-Data-Structure-CNN
 Sparse Data Structures and Algorithms for Convolution layers in Deep Neural Networks 
+Novel Data Structures and Algorithms implemented to perform Sparse Convolution to address the problem of resource intensive training process of Convolutional Neural Networks
+To speed up the otherwise dense convolution(where even the values of weights of the network which have turned to zero are stored in the Dense Kernel Matrix) , 24 different Sparse Data Structures are created for the 4-Dimensional Kernel Matrix which is the only Sparse part in the system(consisting of Input 3-Dimensional Matrix, Kernel 4- Dimensional Matrix and Output 3-Dimensional Matrix).
+The thesis establishes the best arrangement out of the possible 24 variations based on time and space performance proving that on placing the Sparse and Dense dimensions of the data structure in a particular order we can then perform Sparse Convolution on the input channels with maximum efficiency saving on time and space resources. \item Time and Space being the two main resource considerations of Neural Networks, the work is a leap towards deploying Neural networks in latency sensitive applications such as robotic surgery or in embedded systems which face the problem of limited computing resources and energy supply.
+Contact mehtas@tcd.ie for collaboration or source code
